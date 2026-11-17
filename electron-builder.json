@@ -1,0 +1,17 @@
+{
+  "appId": "com.englishtyping.desktop",
+  "productName": "English Typing",
+  "extraMetadata": { "version": "0.1.0" },
+  "directories": { "output": "release" },
+  "files": [
+    "src/main/index.cjs",
+    "src/renderer/index.html",
+    "src/renderer/style.css",
+    "src/renderer/fonts/**/*",
+    ".cache/app.js",
+    "package.json"
+  ],
+  "asar": true,
+  "win": { "target": [{ "target": "portable", "arch": ["x64"] }], "signAndEditExecutable": false },
+  "portable": { "artifactName": "English-Typing-Portable.exe" }
+}

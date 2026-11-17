@@ -1,0 +1,21 @@
+{
+  "name": "english-typing",
+  "private": true,
+  "main": "src/main/index.cjs",
+  "scripts": {
+    "dev": "node tools/launch.cjs",
+    "start": "node tools/launch.cjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.cjs",
+    "dist:win": "npm run build && electron-builder --win portable --x64 --publish never --config electron-builder.json"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.25.12",
+    "typescript": "5.9.3"
+  },
+  "description": "Learn English through writing and recall",
+  "author": "English Typing"
+}
