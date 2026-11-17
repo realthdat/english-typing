@@ -110,10 +110,3 @@ See [docs/design.md](docs/design.md) for scoring and storage details.
 
 - App code: see repository owner terms
 - **Roboto** font: SIL Open Font License (see `src/renderer/fonts/OFL-Roboto.txt`)
-
----
-
-## Related docs
-
-- English: this file
-- 简体中文: [README.zh-CN.md](README.zh-CN.md)
